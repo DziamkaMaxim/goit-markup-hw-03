@@ -129,9 +129,9 @@ img {
 .details-header:hover, .details-header:focus{
     color: #2196F3;
 }
-.details-header:hover .header-list,
-.details-header:focus .header-list {
-    fill: #2196F3;
+.details-header:hover .details-icon,
+.details-header:focus .details-icon {
+    fill: currentColor;
 }
 .header-list{
     display: flex;
@@ -141,8 +141,7 @@ img {
 .header-icon{
     margin-right: 10px;
 }
-.header-icon:hover, .header-icon:focus
-    
+
 
 /* Logo */
 .web {
@@ -191,9 +190,7 @@ img {
 .advantage-list{
 display: flex;
 }
-
 .advantage-item:not(:last-child){
-
    margin-right: 30px; 
 }
 /* about */
@@ -215,13 +212,10 @@ display: flex;
 }
 .about-item{
     margin-right: 30px;
-    
 }
 .about-list{
   display: flex;
 }
-
-
 .about-title {
     font-weight: 700;
     font-size: 14px;
@@ -566,6 +560,9 @@ list-style: none;
         text-transform: uppercase;
     
         color: #FFFFFF;
+
+        margin-bottom: 20px;
+        margin-top: 35px;
 }
 .details-icon{
     fill: #FFFFFF;
@@ -584,7 +581,13 @@ list-style: none;
 .details-item:hover, .details-item:focus{
     background-color: #2196F3;
 }
+.details-item:not(:last-child){
+    margin-right: 10px;
+}
  .footer-container{
      display: flex;
      align-items: center;
+ }
+ .footer-socials{
+    margin-left: 70px;
  }
