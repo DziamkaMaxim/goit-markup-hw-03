@@ -581,3 +581,7 @@ list-style: none;
 .details-item:hover, .details-item:focus{
     background-color: #2196F3;
 }
+ .footer-container{
+     display: flex;
+     align-items: center;
+ }
