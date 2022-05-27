@@ -129,9 +129,9 @@ img {
 .details-header:hover, .details-header:focus{
     color: #2196F3;
 }
-.details-header:hover .details-icon,
-.details-header:focus .details-icon {
-    fill: currentColor;
+.header-list:hover .header-icon,
+.header-list:focus .header-icon {
+  fill: #2196F3;
 }
 .header-list{
     display: flex;
@@ -141,7 +141,6 @@ img {
 .header-icon{
     margin-right: 10px;
 }
-
 
 /* Logo */
 .web {
