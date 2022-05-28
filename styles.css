@@ -39,8 +39,7 @@ img {
 
 /* Header */
 .header{
-    border: 1px solid #ECECEC;
-    
+    border-bottom: 1px solid #ECECEC;
 }
 .header-title{
     font-family: 'Raleway';
@@ -59,8 +58,7 @@ img {
     justify-content: center;
     align-items: center;
 
-        padding-top: 32px;
-        padding-bottom: 32px;
+
 }
 .flex-header-portf{
     display: flex;
@@ -159,18 +157,14 @@ img {
   
   
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
         padding-top: 200px;
         padding-bottom: 200px;
 }
 /* Advatages */
 .advantage{
    display: flex;
-   justify-content: space-between;
+        padding-top: 94px;
 }
-
-
 .advantage-img:nor(:last-child){
     margin-right: 30px;
 }
@@ -183,7 +177,6 @@ img {
     letter-spacing: 0.03em;
 
     color: #212121;
-    padding-top: 94px;
     margin-bottom: 50px;
 }
 .advantage-list{
@@ -209,7 +202,7 @@ display: flex;
 
     margin-bottom: 30px;
 }
-.about-item{
+.about-item:not(:last-child){
     margin-right: 30px;
 }
 .about-list{
@@ -234,7 +227,6 @@ display: flex;
     color: #757575;
 
     margin-right: 30px;
-    margin-bottom: 10px;
     
 }
 .about-text:not(:last-child){
@@ -309,7 +301,7 @@ margin-bottom: 30px;
     border-radius: 4px;
 }
 .button-main:hover, .button-main:focus{
-   color: #042138;
+   background-color: #042138;
 }
 /* portf project */
 .project{
@@ -393,6 +385,7 @@ list-style: none;
 /* teams */
 .teams {
     background-color: #F5F4FA;
+    margin-top: 94px;
 }
 .teams-list{
     display: flex;
@@ -406,8 +399,8 @@ list-style: none;
     text-align: center;
     letter-spacing: 0.03em;
 
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     
 }
 .teams-item{
@@ -426,7 +419,7 @@ list-style: none;
     letter-spacing: 0.03em;
     color: #757575;
 
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .teams-title{
@@ -438,13 +431,13 @@ list-style: none;
     color: #212121;
 
     padding-top: 94px;
-    margin-top: 94px;
+  
 } 
 .social-list{
     display: flex;
     justify-content: center;
     
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .social-item{
     height: 44px;
@@ -492,12 +485,11 @@ list-style: none;
     
         color: #212121;
 
-        padding-bottom: 50px;
+        margin-bottom: 50px;
 }
 .client-content{
     display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .client-icon {
@@ -544,7 +536,7 @@ list-style: none;
         line-height: 1.19;
         letter-spacing: 0.03em;
 
-        padding-top: 60px;
+        margin-top: 60px;
         display: inline-block;
 }
 .details-list{
